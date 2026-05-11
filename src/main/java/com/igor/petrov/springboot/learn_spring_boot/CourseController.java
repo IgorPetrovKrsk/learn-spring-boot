@@ -12,10 +12,13 @@ import java.util.List;
 public class CourseController {
 
     @RequestMapping("/courses")
-    public List<Course> retrieveAllCourses () {
+    public List<Course> retrieveAllCourses() {
         return Arrays.asList(
-                new Course (1, "Learn AWS", "IgorPetrov"),
-                new Course (2, "Learn DevOps", "IgorPetrov")
+                new Course(1, "Learn AWS", "IgorPetrov"),
+                new Course(2, "Learn DevOps", "IgorPetrov"),
+                new Course(3, "Learn Azure", "IgorPetrov"),
+                new Course(4, "Learn Kotlin", "IgorPetrov")
+
         );
     }
 
